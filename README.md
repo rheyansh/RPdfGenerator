@@ -21,17 +21,19 @@ A sample project to generate PDF file from data using itextpdf/itext7 library
 
 * Add XML resource folder (see provider_paths.xml in example folder)
 
+<!-- external_files -->
 <?xml version="1.0" encoding="utf-8"?>
 <paths>
     <external-path name="external_files" path="."/>
 </paths>
 
+* Follow link to get more details to use
+ https://stackoverflow.com/a/63830612/8481838
+
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/1.png)
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/2.png)
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/3.png)
  
- * Follow link to get more details to use
- https://stackoverflow.com/a/63830612/8481838
  
 # Author   
 
