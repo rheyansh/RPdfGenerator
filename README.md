@@ -2,15 +2,12 @@
 A sample project to generate PDF file from data using itextpdf/itext7 library
 
 # Important Notes
-------------------------------------------------------------------
+
 * Add WRITE_EXTERNAL_STORAGE permission in AndroidManifest.xml
-------------------------------------------------------------------
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-------------------------------------------------------------------
 * Add File Provider in AndroidManifest.xml
-------------------------------------------------------------------
 <!-- File Provider -->
         <provider
             android:name="androidx.core.content.FileProvider"
@@ -21,18 +18,20 @@ A sample project to generate PDF file from data using itextpdf/itext7 library
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-------------------------------------------------------------------
+
 * Add XML resource folder (see provider_paths.xml in example folder)
-------------------------------------------------------------------
+
 <?xml version="1.0" encoding="utf-8"?>
 <paths>
     <external-path name="external_files" path="."/>
 </paths>
-------------------------------------------------------------------
- 
+
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/1.png)
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/2.png)
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/3.png)
+ 
+ * Follow link to get more details to use
+ https://stackoverflow.com/a/63830612/8481838
  
 # Author   
 
