@@ -1,12 +1,6 @@
 # RPdfGenerator
 A sample project to generate PDF file from data using itextpdf/itext7 library
 
-Master branch has the latest code and compatible with Swift 5. Check other branches for various Swift versions
-
-![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/1.png)
-![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/2.png)
-![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/3.png)
-
 # Important Notes
 ------------------------------------------------------------------
 * Add WRITE_EXTERNAL_STORAGE permission in AndroidManifest.xml
@@ -35,6 +29,10 @@ Master branch has the latest code and compatible with Swift 5. Check other branc
     <external-path name="external_files" path="."/>
 </paths>
 ------------------------------------------------------------------
+ 
+![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/1.png)
+![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/2.png)
+![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/3.png)
  
 # Author   
 
