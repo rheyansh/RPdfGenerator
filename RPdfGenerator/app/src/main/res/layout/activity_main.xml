@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/totalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shadow_card"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/totalPlusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/totalPlusValue"
+            android:text="@string/totalCredit"
+            android:textColor="@color/grey_700"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/totalPlusValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/totalPlusText"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/colorVegetarian"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/totalMinusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/totalMinusValue"
+            android:layout_below="@+id/totalPlusText"
+            android:text="@string/totalDebit"
+            android:textColor="@color/grey_700"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/totalMinusValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/totalMinusText"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/alert"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/totalSeparator"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@+id/totalMinusText"
+            android:background="@color/grey_200"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/totalText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/totalValue"
+            android:layout_below="@+id/totalSeparator"
+            android:text="@string/totalProfit"
+            android:textColor="@color/grey_700"
+            android:textStyle="bold"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/totalValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/totalText"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="8dp"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/success"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/createPdfButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:textColor="@color/white"
+        android:background="@drawable/flat_shadow_button"
+        android:text="Create PDF"
+        android:layout_margin="8dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:textColor="#000000">
+    </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

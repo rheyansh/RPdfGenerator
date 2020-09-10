@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RPdfGenerator</string>
+    <string name="totalCredit">Total Credit</string>
+    <string name="totalDebit">Total Debit</string>
+    <string name="totalProfit">Total Profit</string>
+
+    <string name="msg1">“He who plants a tree. Plants a hope.” – Lucy Larcom</string>
+    <string name="msg2">“To exist as a nation, to prosper as a state, to live as a people, we must have trees.”― Theodore Roosevelt</string>
+    <string name="msg3">“The best time to plant a tree was 20 years ago. The second best time is now.”  ― Chinese Proverb</string>
+    <string name="msg4">“Reversing deforestation is complicated; planting a tree is simple.” – Martin O’Malley</string>
+
+</resources>

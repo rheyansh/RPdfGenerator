@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A5C91</color>
+    <color name="transparent">#00000000</color>
+    <color name="colorPrimary_1">#F5A544</color>
+    <color name="amz">#FF9900</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_700">#1D1E1E</color>
+    <color name="alert">#ac1600</color>
+    <color name="grey_600">#303232</color>
+    <color name="grey_500">#404142</color>
+    <color name="colorVegetarian">#26A65B</color>
+    <color name="success">#37A51C</color>
+    <color name="grey_200">#DFE3E5</color>
+
+</resources>
