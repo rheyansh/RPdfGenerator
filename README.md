@@ -31,8 +31,6 @@ A sample project to generate PDF file from data using itextpdf/itext7 library
  https://stackoverflow.com/a/63830612/8481838
 
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/4.gif)
-![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/1.png)
-![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/2.png)
 ![Alt text](https://github.com/rheyansh/RPdfGenerator/blob/master/Screenshots/3.png)
  
  
