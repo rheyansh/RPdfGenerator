@@ -42,3 +42,10 @@ A sample project to generate PDF file from data using itextpdf/itext7 library
 
 * If you **found a bug**, open an issue.
 * If you **want to contribute**, submit a pull request.
+
+## Other Libraries
+
+* [RBiometric](https://github.com/rheyansh/RBiometric):- Elegant and Easy-to-Use library for iOS Biometric (TouchId and FaceId) authentication.
+* [RBeacon](https://github.com/rheyansh/RBeacon):- Sample project for turning android device into a Beacon device. App can work as both broadcaster and receiver.
+* [RPicker](https://github.com/rheyansh/RPicker):- Elegant and Easy-to-Use Date and Options Picker.
+* [RFirebaseMessaging](https://github.com/rheyansh/RFirebaseMessaging):- Project provides basic idea and approach for building small social media application using firebase and implementing chat using Firebase.
